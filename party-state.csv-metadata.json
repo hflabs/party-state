@@ -1,0 +1,27 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "dc:title": "Статусы организаций в ЕГРЮЛ",
+    "dc:description": "Статусы организаций в ЕГРЮЛ.",
+    "dc:references": "https://dadata.ru/",
+    "dc:creator": "DaData.ru",
+    "dc:issued": "2020-10-30",
+    "dc:language": "ru",
+    "dc:license": "CC BY-SA 4.0",
+    "url": "party-state.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "code",
+                "dc:description": "Числовой статус в ЕГРЮЛ"
+            },
+            {
+                "titles": "status",
+                "dc:description": "Литерный статус в Дадате"
+            },
+            {
+                "titles": "description",
+                "dc:description": "Расшифровка статуса"
+            }
+        ]
+    }
+}
