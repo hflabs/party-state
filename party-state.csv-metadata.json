@@ -4,7 +4,7 @@
     "dc:description": "Статусы организаций в ЕГРЮЛ.",
     "dc:references": "https://dadata.ru/",
     "dc:creator": "DaData.ru",
-    "dc:issued": "2024-02-28",
+    "dc:issued": "2024-04-25",
     "dc:language": "ru",
     "dc:license": "CC BY-SA 4.0",
     "url": "party-state.csv",
@@ -13,6 +13,10 @@
             {
                 "titles": "code",
                 "dc:description": "Числовой статус в ЕГРЮЛ"
+            },
+            {
+                "titles": "type",
+                "dc:description": "Тип организации"
             },
             {
                 "titles": "status",
